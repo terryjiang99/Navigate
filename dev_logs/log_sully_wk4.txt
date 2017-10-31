@@ -1,0 +1,3 @@
+With help of team members we implemented a left and right side menus for the app, 
+With a search bar on left side to be used later for searching our database. Added 
+app icon and labels in right menu for profile add carparts settings and contact us. 

@@ -1,0 +1,2 @@
+Met with team members at canadian tire to collect data on car parts and input them in a google doc that will be later 
+used as a database for our app. Team member bought basic swift tutorials for us to start implementing a user interface for the app.

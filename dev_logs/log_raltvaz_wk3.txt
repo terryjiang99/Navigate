@@ -1,0 +1,4 @@
+Things done this week: 
+2 hours researching Firebase database
+1 hour researching Swift
+

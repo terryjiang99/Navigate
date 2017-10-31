@@ -1,0 +1,14 @@
+Duties:
+* Met up with TA to learn and discuss basic Swift templates and functionalities (1 hour)
+ ------Team and I decided to focus on Swift programing (iOS devices) after looking at its capabilities 
+* Registered Apple Software Dev member (10 minutes)
+* Drove to Barrhaven to pick up Apple Mini and fix up computer for team member who does not have an apple product (1 hour)
+* Fixed Apple computer to be updated to new specifications (1 hour)
+* Skill Success Tutorial (20 mins)
+* Started to fix data base entries and find missing parts with team members (3 hours)
+* Requested assistance from mechanical engineer to match pictures with car parts (10 minutes)
+
+Acheivements:
+* Focus on iOS Devices
+* Database for car parts is completed
+* All members have access to apple products

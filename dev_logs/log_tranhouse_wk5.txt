@@ -1,0 +1,7 @@
+Duties:
+* Designed rough UI interface in Swift - Side swipe functionalitis (Add, My Profile), App icon, colouring scheme  - (3 hours)
+* Requested update from mechanical engineer and worked through a few issues with the final objective (1 hour)
+* Entered required dev logs for this course of core responsibilties fulfilled
+
+Acheivements:
+* Interface has some functionalities for our overall look
