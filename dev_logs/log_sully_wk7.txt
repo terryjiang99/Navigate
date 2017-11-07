@@ -1,2 +1,0 @@
-implemented UI Login and push notifications also for settings page enable or disable
- notifications.

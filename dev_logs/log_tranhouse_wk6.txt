@@ -1,0 +1,15 @@
+Duties:
+* Implemented a new search bar with a detailed view pane (6 hours)
+* Search bar sorting algorithm (title, date, price) (3 hours)
+* Pictures integrated in asset folder and statically located in an array to be populated in list (1 hour)
+* Changed glitch of swipe functionality - 80% view, removed non-functional buttons (1 hour)
+* Edited "Contact Us" and "My Settings" window pane with buttons (simulation only) (20 minutes)
+* Edited D2 Summary report (2 hours)
+* Updated main screen to have a list of car parts that the user has added, refresh main screen bug (2 hours)
+        * debug 'delete' functionality (not working on iPhone, only simulated xCode)
+* Practise for 5-min presentation (2 hours)
+
+Acheivements:
+* D2 was completed and handed on time
+* Prototype with key functionalities are operational for the purpose of our presentation
+* Presentation of our prototype

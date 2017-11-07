@@ -1,2 +1,3 @@
 Implemented search bar filtering user input to desired results. 
 Researched database and how to use our data to interact with application.
+Implemented UI Login and push notifications also for settings page enable or disable notifications.

@@ -1,7 +1,8 @@
 Duties:
-* Designed rough UI interface in Swift - Side swipe functionalitis (Add, My Profile), App icon, colouring scheme  - (3 hours)
+* Designed rough UI interface in Swift - Side swipe functionalitis, added 'Add My Parts', 'My Profile' and 'Contact Us', App icon, colouring scheme  - (12 hours)
+* Implemented a search bar UI and coded rough implementation for search (6 hours)
 * Requested update from mechanical engineer and worked through a few issues with the final objective (1 hour)
-* Entered required dev logs for this course of core responsibilties fulfilled
+* Entered required dev logs for this course of core responsibilties fulfilled (20 minutes)
 
 Acheivements:
-* Interface has some functionalities for our overall look
+* Interface has some functionalities for our overall look/template - Database is not attached to any of the search fields
