@@ -42,11 +42,23 @@ class Model: NSObject {
             modelAry.append(Model(name: partName, year: "partYear", price: "partPrice"))
         })*/
         
-        modelAry.append(Model(name: "tire", year: "2-3", price: "175 - 300"))
-        modelAry.append(Model(name: "battery", year: "3-5", price: "75 - 150"))
-        modelAry.append(Model(name: "sparkPlug", year: "2-4", price: "5 - 25"))
-        modelAry.append(Model(name: "muffler", year: "3-5", price: "75 - 125"))
-        modelAry.append(Model(name: "breakPads", year: "2-4", price: "50 - 100"))
+        modelAry.append(Model(name: "img010", year: "2-3", price: "175 - 300"))
+        modelAry.append(Model(name: "img049", year: "3-5", price: "75 - 150"))
+        modelAry.append(Model(name: "img114", year: "2-4", price: "5 - 25"))
+        modelAry.append(Model(name: "img164", year: "3-5", price: "75 - 125"))
+        modelAry.append(Model(name: "img173", year: "2-4", price: "50 - 100"))
+        modelAry.append(Model(name: "img174", year: "3-5", price: "75 - 150"))
+        modelAry.append(Model(name: "img179", year: "2-4", price: "5 - 25"))
+        modelAry.append(Model(name: "img210", year: "3-5", price: "75 - 125"))
+        modelAry.append(Model(name: "img212", year: "2-4", price: "50 - 100"))
+        modelAry.append(Model(name: "img223", year: "3-5", price: "75 - 150"))
+        modelAry.append(Model(name: "img226", year: "2-4", price: "5 - 25"))
+        modelAry.append(Model(name: "img230", year: "3-5", price: "75 - 125"))
+        modelAry.append(Model(name: "img247", year: "2-4", price: "50 - 100"))
+        
+        
+        
+        
         
         return modelAry
     }
