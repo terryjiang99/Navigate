@@ -23,8 +23,38 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var priceLabel: UILabel!
     
     @IBOutlet weak var partAdded: UILabel!
+   // @IBOutlet weak var dateTF: UITextField!
     
-//<<<<<<< HEAD
+    let datePicked = UIDatePicker()
+    
+    @IBOutlet weak var dateTF: UITextField!
+    
+    
+    //-------- DATE FUNCTION ------------------
+    
+    func createDate(){
+        //format date displayed
+        datePicked.datePickerMode = .date
+        //assign our text feld to the date picker
+        dateTF.inputView = datePicked
+        let toolbar = UIToolbar()
+        toolbar.sizeToFit()
+        
+        //add a finished button to toolbar
+        let finishedButton = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector (buttonClick))
+        toolbar.setItems([finishedButton], animated: true)
+        dateTF.inputAccessoryView = toolbar
+    }
+    
+    func buttonClick(){
+        //format date
+        let dateFormat = DateFormatter()
+        dateFormat.dateStyle = .medium
+        dateFormat.timeStyle = .none
+        dateTF.text = dateFormat.string(from: datePicked.date)
+        self.view.endEditing(true)
+        
+    }
     
     //-------- ADD TO INVENTORY BUTTON -------
     @IBAction func invList(_ sender: UIButton) {
@@ -89,6 +119,7 @@ class DetailViewController: UIViewController {
      partAdded.text = "Part Added!"
     
         imageView.image = UIImage(named: dataModel.imageName)
+    createDate()
     }
 
     
