@@ -1,0 +1,2 @@
+Added drop down date menu for date purchased, and date of birth in the settings page.
+Researched architectures and pros and cons of client server architecture.
