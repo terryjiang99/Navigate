@@ -1,2 +1,0 @@
-1. Worked on asyncronousity issue with Firebase call that prevented data from being loaded due to the function returning before the Firebase call finished. (2 hours)
-2. Finished component diagram for deliverable 2. (6 hours)
