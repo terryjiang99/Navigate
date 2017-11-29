@@ -1,5 +1,0 @@
-Things done this week:
-	Spent 9 hours researching and trying to implement different types of coloring depending on how long it has been since the owners specific car part has been added
-	Red = Needs to be checked up on soon
-	Orange = Close to be due for a checkup
-	Green = Recently repaired
