@@ -1,0 +1,2 @@
+Things done this week:
+  Spent 7 hours researching and trying to implement multiple car image views while still maintaining users added car parts and showing it in different areas for different views
