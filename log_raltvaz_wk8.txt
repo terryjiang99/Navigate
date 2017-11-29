@@ -1,3 +1,0 @@
-Things done this week:
-	Spent 6 hours researching Architectural and Design patterns for upcoming D3
-	Spent 4 hours working with Terry to solve asynchronisty issue
