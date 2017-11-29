@@ -20,6 +20,40 @@ class settingsViewController: UIViewController {
     
     @IBOutlet weak var menuBtn: UIBarButtonItem!
     @IBOutlet weak var theSwitch: UISwitch!
+    
+    let datePicked = UIDatePicker()
+    
+   // @IBOutlet weak var dateTF: UITextField!
+    
+    
+    //-------- DATE FUNCTION ------------------
+    
+    func createDate(){
+        //format date displayed
+        datePicked.datePickerMode = .date
+        //assign our text feld to the date picker
+        age.inputView = datePicked
+        let toolbar = UIToolbar()
+        toolbar.sizeToFit()
+        
+        //add a finished button to toolbar
+        let finishedButton = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector (buttonClick))
+        toolbar.setItems([finishedButton], animated: true)
+        age.inputAccessoryView = toolbar
+    }
+    
+    func buttonClick(){
+        //format date
+        let dateFormat = DateFormatter()
+        dateFormat.dateStyle = .medium
+        dateFormat.timeStyle = .none
+        age.text = dateFormat.string(from: datePicked.date)
+        self.view.endEditing(true)
+        
+    }
+    
+    
+    
     @IBAction func onOffSwitch(_ sender: Any) {
         if theSwitch.isOn{
             let content = UNMutableNotificationContent()
@@ -52,6 +86,7 @@ class settingsViewController: UIViewController {
         menuBtn.target = revealViewController()
         menuBtn.action = #selector(SWRevealViewController.rightRevealToggle(_:))
         // Do any additional setup after loading the view.
+        createDate()
     }
 
     override func didReceiveMemoryWarning() {
