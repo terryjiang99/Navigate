@@ -67,27 +67,27 @@ class DetailViewController: UIViewController {
         GlobalVariable.inventoryList.append(imageNameLabel.text!)
        
  //---- ADD TO CGRect ARRAY AND MAKES SURE THERE IS NO DUPLICATES (TEMPORARY SOLUTION) --------------------------
-        if (imageNameLabel.text == "battery"){
+        if (imageNameLabel.text == "img026"){
             if !(GlobalVariable.car1.contains(CGRect(x:50, y: 50, width:50, height:50))) {
                 GlobalVariable.car1.append(CGRect(x: 50, y: 50, width: 50, height: 50))
             }
         }
-        else if (imageNameLabel.text == "breakPads"){
+        else if (imageNameLabel.text == "img119"){
             if !(GlobalVariable.car1.contains(CGRect(x: 340, y: 60, width: 40, height: 40))) {
                 GlobalVariable.car1.append(CGRect(x: 340, y: 60, width: 40, height: 40))
             }
         }
-        else if (imageNameLabel.text == "tire"){
+        else if (imageNameLabel.text == "img006"){
             if !(GlobalVariable.car1.contains(CGRect(x: 170, y: 90, width: 50, height: 40))) {
                 GlobalVariable.car1.append(CGRect(x: 170, y: 90, width: 50, height: 40))
             }
         }
-        else if (imageNameLabel.text == "muffler"){
+        else if (imageNameLabel.text == "img227"){
             if !(GlobalVariable.car1.contains(CGRect(x: 270, y: 60, width: 20, height: 20))) {
                 GlobalVariable.car1.append(CGRect(x: 270, y: 60, width: 20, height: 20))
             }
         }
-        else if (imageNameLabel.text == "sparkPlug"){
+        else if (imageNameLabel.text == "img058"){
             if !(GlobalVariable.car1.contains(CGRect(x: 120, y: 85, width: 40, height: 20))) {
                 GlobalVariable.car1.append(CGRect(x: 120, y: 85, width: 40, height: 20))
             }

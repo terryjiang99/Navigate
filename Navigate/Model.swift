@@ -54,7 +54,10 @@ class Model: NSObject {
         modelAry.append(Model(name: "img223", year: "3-5", price: "75 - 150"))
         modelAry.append(Model(name: "img226", year: "2-4", price: "5 - 25"))
         modelAry.append(Model(name: "img230", year: "3-5", price: "75 - 125"))
-        modelAry.append(Model(name: "img247", year: "2-4", price: "50 - 100"))
+        modelAry.append(Model(name: "img006", year: "2-4", price: "50 - 100"))
+        modelAry.append(Model(name: "img026", year: "2-4", price: "5 - 25"))
+        modelAry.append(Model(name: "img119", year: "3-5", price: "75 - 125"))
+        modelAry.append(Model(name: "img065", year: "2-4", price: "50 - 100"))
         
         
         
