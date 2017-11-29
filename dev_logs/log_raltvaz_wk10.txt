@@ -1,0 +1,2 @@
+Things done this week:
+	Spent 5 hours working on D4 documentation and presentation, particulary writing the functionalites implemented and the ones we didnt
