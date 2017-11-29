@@ -1,0 +1,8 @@
+Duties:
+* D3 Requirements (15 hours)
+    - Architectural Desgin
+    - Architectural Patterns
+    - Diagrams - UML, Class Diagram
+
+Acheivements:
+ - Completed the 10 page requirement for D3 with all points covered

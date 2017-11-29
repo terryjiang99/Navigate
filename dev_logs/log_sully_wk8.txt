@@ -1,0 +1,2 @@
+Written- Worked on D3 document, researched design patterns and architecture, worked on UML diagram
+Code- some bugs fixed and cleaned the U/I up. 
