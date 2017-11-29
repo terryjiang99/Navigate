@@ -139,7 +139,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }
             //Otherwise check which part we are trying to remove
             else{
-                if test == "img026" {
+                if test == "battery" {
                     //Go through the CGrect array, find the corresponding part and remove (applies to the other else if statments too)
                     for rect in rectList{
                         if rect.equalTo(CGRect(x:50, y: 50, width:50, height:50)){
@@ -149,7 +149,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                         }
                     }
                 }
-                else if test == "img119" {
+                else if test == "breakPads" {
                     for rect in rectList{
                         if rect.equalTo(CGRect(x: 340, y: 60, width: 40, height: 40)){
                             let index = rectList.index(of: rect)
@@ -158,7 +158,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                         }
                     }
                 }
-                else if test == "img006" {
+                else if test == "tire" {
                     for rect in rectList{
                         if rect.equalTo(CGRect(x: 170, y: 90, width: 50, height: 40)){
                             let index = rectList.index(of: rect)
@@ -167,7 +167,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                         }
                     }
                 }
-                else if test == "img227" {
+                else if test == "muffler" {
                     for rect in rectList{
                         if rect.equalTo(CGRect(x: 270, y: 60, width: 20, height: 20)){
                             let index = rectList.index(of: rect)
@@ -176,7 +176,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                         }
                     }
                 }
-                else if test == "img058" {
+                else if test == "sparkPlug" {
                     for rect in rectList{
                         if rect.equalTo(CGRect(x: 120, y: 85, width: 40, height: 20)){
                             let index = rectList.index(of: rect)
